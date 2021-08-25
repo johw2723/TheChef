@@ -1,0 +1,66 @@
+/* join.css */
+/* joinResult.css */
+/* login.css */
+
+html, body { 
+	margin: 0;
+    padding:0; 
+    height: 100%; 
+}
+
+.header { 
+	width: 100%; 
+	height: 10%; 
+	background: #ffffff; 	
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 메인 페이지 이동 버튼 디자인 */
+.main_page {
+	background : #ffffff;
+	font-size : 20px;
+	width: 100%;
+	height: 100%;
+	float: center;
+	border: 0;
+	outline: 0;
+}
+
+.login_page {
+	background : #ffffff;
+	font-size : 20px;
+	width: 100%;
+	height: 100%;
+	float: center;
+	border: 0;
+	outline: 0;
+}
+
+#wrap {
+    width: 490px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.login {
+	flex: 1;
+	text-align: center;
+}
+
+.main {
+	flex: 1;
+}
+
+font {
+	flex: 1;
+}

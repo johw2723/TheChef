@@ -1,0 +1,193 @@
+/* TheChef.css */
+
+html, body { 
+	margin: 0;
+    padding:0; 
+    height: 100%;
+}
+    
+.header { 
+	width: 100%; 
+	height: 10%; 
+	background: #ffffff; 
+	position: static;
+}
+
+/* 메인 페이지 이동 버튼 디자인 */
+.main_page {
+	background : #ffffff;
+	font-size : 20px;
+	width: 20%;
+	height: 100%;
+	float: left;
+	border: 0;
+	outline: 0;
+}
+
+.nav_button {
+	background : #ffffff;
+	font-size : 20px;
+	width: 100px;
+	height: 60px;
+	float: left;
+	text-algin: center;
+	border: 1px dashed #c0c0c0;
+	outline: 0;
+	margin: 3px;
+}
+
+#search {	
+	position: relative;
+	left: 15%;
+	top: 35%;
+}
+		
+.section_contents { 
+	width: 80%; 
+	height: 90%; 
+	float: left; 
+	background: #ffffff; 
+}
+.section_main { 
+	width: 100%; 
+	height: 90%; 
+	float: left; 
+	background: #ffffff; 
+}
+
+/* 메인 페이지 좌측*/
+.in_section1{
+	width: 90%;
+	float: left;
+	background: #ffffff; 
+}
+/* 메인 페이지 우측*/
+.in_section2{
+	width: 10%;
+	float: left;
+	background: #ffffff; 
+}
+
+hr {
+	margin: 2px;
+}
+
+.favorite{
+	position: relative;
+	bottom : 4px;
+	float: right; 
+}
+
+/* 메인 페이지 우측 내부*/
+.aside_main { 
+	width: 100px;  
+	float: right; 
+	background: #ffffff; 
+}
+
+.aside_contents { 
+	width: 20%; 
+	height: 90%; 
+	float: left; 
+	background: #ffffff; 	
+}
+.aside_form {
+	background: #ffffff; 
+	border: 1px solid #bcbcbc;
+	margin: 2px;
+}
+
+a {
+	text-decoration-line: none;
+}
+h3 {
+	margin: 10px;
+}
+p {
+	margin: 10px;
+}
+.aside_item {
+	margin: 10px;
+	column-count: 2;
+}
+
+.aside br {
+	break-before: column;
+}
+	
+.footer {
+	column-count: 3;
+	font-size : 10px;
+	width: 100%;
+	height: 80px; 
+	float: bottom;  
+	clear: both; 
+	background: #c0c0c0;
+	margin-top:10px;
+}
+
+.footer button {  
+	background: #c0c0c0;
+	border: 0;
+	outline: 0;
+}
+
+/* 로그인 관련 */
+.login_page {
+	font-size : 12px;
+	background : #ffffff;
+	width: 10%;
+	height: 50%;
+	float: right;
+	border: 0;
+	outline: 0;
+}
+
+.login_page > input {
+	background : #ffffff;
+	border: 0;
+	outline: 0;
+}
+
+h4 {
+	text-align: center;
+}
+/* 콘테이너 */
+.container {
+  display: flex;
+  width: 100%;
+  padding: 2% 2%;
+  box-sizing: border-box;
+  height: 56vh;
+}
+
+/* 박스 */
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > iframe {
+  width: 100%;
+  height: calc(100% - 8vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.5vh;
+  display: block;
+  text-align: center;
+  height: 56vh;
+  line-height: 2.3;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > iframe {
+  width: 100%;
+  height: calc(100% - 8vh);
+}

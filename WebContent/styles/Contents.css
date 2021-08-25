@@ -1,0 +1,176 @@
+/* Contents.css 적용 목록*/
+/* Contents.jsp */
+
+
+html, body { 
+	margin: 0;
+    padding:0; 
+    height: 100%; 
+}
+    
+.header { 
+	width: 100%; 
+	height: 10%; 
+	background: #ffffff; 
+	position: static;
+}
+
+.header_contents { 
+	width: 100%; 
+	height: 10%; 
+	background: #ffffff; 
+	position: static;
+}
+
+.main_page {
+	background : #ffffff;
+	font-size : 20px;
+	width: 20%;
+	height: 100%;
+	float: left;
+	border: 0;
+	outline: 0;
+}
+
+.nav_button {
+	background : #ffffff;
+	font-size : 20px;
+	width: 100px;
+	height: 60px;
+	float: left;
+	text-algin: center;
+	border: 1px dashed #c0c0c0;
+	outline: 0;
+	margin: 3px;
+}
+
+#wrap {
+    width: 490px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+#search {	
+	position: relative;
+	left: 15%;
+	top: 35%;
+}
+		
+.section_contents { 
+	width: 80%; 
+	height: 90%; 
+	float: left; 
+	background: #ffffff; 
+}
+.section_main { 
+	width: 100%; 
+	height: 90%; 
+	float: left; 
+	background: #ffffff; 
+}
+
+/* 메인 페이지 좌측*/
+.in_section1{
+	width: 90%;
+	float: left;
+	background: #ffffff; 
+}
+/* 메인 페이지 우측*/
+.in_section2{
+	width: 10%;
+	float: left;
+	background: #ffffff; 
+}
+
+
+video {
+	margin: 2px;
+}
+
+hr {
+	margin: 2px;
+	text-align: center;
+}
+
+.favorite{
+	position: relative;
+	bottom : 4px;
+	float: right; 
+}
+
+/* 메인 페이지 우측 내부*/
+.aside_main { 
+	width: 100px;  
+	float: right; 
+	background: #ffffff; 
+}
+
+.aside_contents { 
+	width: 20%; 
+	height: 90%; 
+	float: left; 
+	background: #ffffff; 	
+}
+.aside_form {
+	background: #ffffff; 
+	border: 1px solid #bcbcbc;
+	margin: 2px;
+}
+
+a {
+	text-decoration-line: none;
+}
+h3 {
+	margin: 10px;
+}
+p {
+	margin: 10px;
+}
+
+.aside_item {
+	margin: 10px;
+	column-count: 2;
+}
+
+.aside br {
+	break-before: column;
+}
+
+.footer {
+	column-count: 3;
+	font-size : 10px;
+	width: 100%;
+	height: 80px; 
+	float: bottom;  
+	clear: both; 
+	background: #c0c0c0;
+	margin-top:10px;
+}
+
+.footer button {  
+	background: #c0c0c0;
+	border: 0;
+	outline: 0;
+}
+
+/* 로그인 페이지 */
+.login_page {
+	font-size : 12px;
+	background : #ffffff;
+	width: 10%;
+	height: 50%;
+	float: right;
+	border: 0;
+	outline: 0;
+}
+.login {
+	position: relative;
+	left: 35%;
+	top: 35%;
+}
+
+.login_page > input {
+	background : #ffffff;
+	border: 0;
+	outline: 0;
+}
